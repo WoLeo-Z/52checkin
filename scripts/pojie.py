@@ -3,7 +3,6 @@
 import requests
 from pyquery import PyQuery as pq
 import os
-from QYWX_Notify import QYWX_Notify
 import time
 
 
@@ -28,8 +27,6 @@ def pojie_signin():
             elif '恭喜' in msg:
                 msg = '签到成功'            
             msg = un + '\n' + msg
-        QYWX_Notify().send('吾爱破解签到信息', msg)
-
 
 if __name__ == '__main__':
     pojie_signin()
