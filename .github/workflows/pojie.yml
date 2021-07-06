@@ -27,5 +27,5 @@ jobs:
     - name: 签到
       run: |
         python3 ./scripts/pojie.py
-      env:
-        PJ_COOKIE: 'htVD_2132_auth=2897TA7ECnKpCg0aBHn4oRx%2FgehZwUJ8%2FVL%2FqtCF5BtAoDtdm6BSFgGLDOt3pf%2BILgs5z0uAMHteRw001A6INaPih7g3;htVD_2132_saltkey=e0q65k0b'
+      #env:
+        #PJ_COOKIE: 'htVD_2132_auth=2897TA7ECnKpCg0aBHn4oRx%2FgehZwUJ8%2FVL%2FqtCF5BtAoDtdm6BSFgGLDOt3pf%2BILgs5z0uAMHteRw001A6INaPih7g3;htVD_2132_saltkey=e0q65k0b'
