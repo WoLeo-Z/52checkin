@@ -7,7 +7,7 @@ import time
 
 
 def pojie_signin():
-    pj_cookie = os.getenv('PJ_COOKIE')
+    pj_cookie = 'htVD_2132_auth=2897TA7ECnKpCg0aBHn4oRx%2FgehZwUJ8%2FVL%2FqtCF5BtAoDtdm6BSFgGLDOt3pf%2BILgs5z0uAMHteRw001A6INaPih7g3;htVD_2132_saltkey=e0q65k0b'
     if pj_cookie:
         url1 = 'https://www.52pojie.cn/home.php?mod=task&do=apply&id=2'
         url2 = 'https://www.52pojie.cn/home.php?mod=task&do=draw&id=2'
