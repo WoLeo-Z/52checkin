@@ -1,5 +1,2 @@
 requests
-pyquery
-rsa
-lxml
-pytz
+re
